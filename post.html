@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Thaisplicando - Blog Post</title>
+    <meta name="keywords" content="tecnologia, inovação, inteligência artificial, blog, thaisplicando">
+    <meta name="description" content="Blog de tecnologia e inovação da Thaisplicando">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/thaisplicando.css">
+    <link rel="stylesheet" href="css/blog-style.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div id="preloader">
+        <div id="status" class="la-ball-triangle-path">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+        <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+        <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;">
+        </div>
+        <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+        <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
+    </div>
+
+    <div id="wrapper">
+        <!-- Load header.html -->
+        <div id="header-container"></div>
+
+        <!-- Blog Banner Section -->
+        <section class="hero-wrap hero-wrap-2" style="background-image: url('images/banner/banner-image.jpg');">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row no-gutters slider-text align-items-end">
+                    <div class="col-md-9 ftco-animate pb-5 mb-5">
+                        <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span><a href="blog.html">Blog</a> <i class="fa fa-chevron-right"></i></span></p>
+                        <h1 class="mb-3 bread">Artigo</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Content Section -->
+        <section class="ftco-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12" id="blog-content">
+                        <!-- Blog content will be loaded here by JavaScript -->
+                        <div class="loading">
+                            <div class="spinner"></div>
+                            <p>Carregando artigo...</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-md-12">
+                        <div class="sidebar">
+                            <div class="sidebar-block">
+                                <h3>Categorias</h3>
+                                <ul class="categories">
+                                    <li><a href="#">Tecnologia <span>(12)</span></a></li>
+                                    <li><a href="#">Inteligência Artificial <span>(8)</span></a></li>
+                                    <li><a href="#">Programação <span>(7)</span></a></li>
+                                    <li><a href="#">Inovação <span>(5)</span></a></li>
+                                    <li><a href="#">Estilo de Vida <span>(3)</span></a></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="sidebar-block">
+                                <h3>Posts Recentes</h3>
+                                <div class="recent-posts">
+                                    <div class="recent-post-item">
+                                        <img src="images/posts-recentes/post1.jpg" alt="Post Recente">
+                                        <div class="recent-post-info">
+                                            <h4><a href="post.html?post=introducao-ia">Introdução à Inteligência Artificial</a></h4>
+                                            <span>15 de Março, 2024</span>
+                                        </div>
+                                    </div>
+                                    <div class="recent-post-item">
+                                        <img src="images/posts-recentes/post2.jpg" alt="Post Recente">
+                                        <div class="recent-post-info">
+                                            <h4><a href="post.html?post=engenharia-prompt">Engenharia de Prompt</a></h4>
+                                            <span>10 de Março, 2024</span>
+                                        </div>
+                                    </div>
+                                    <div class="recent-post-item">
+                                        <img src="images/posts-recentes/post3.jpg" alt="Post Recente">
+                                        <div class="recent-post-info">
+                                            <h4><a href="post.html?post=circuit-breaker">Circuit Breaker</a></h4>
+                                            <span>5 de Março, 2024</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="sidebar-block">
+                                <h3>Tags</h3>
+                                <div class="tag-cloud">
+                                    <a href="#">tecnologia</a>
+                                    <a href="#">ia</a>
+                                    <a href="#">python</a>
+                                    <a href="#">programação</a>
+                                    <a href="#">desenvolvimento</a>
+                                    <a href="#">inovação</a>
+                                    <a href="#">ciência de dados</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Load footer.html -->
+        <div id="footer-container"></div>
+    </div>
+
+    <script src="js/jquery.1.8.3.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/featherlight.min.js"></script>
+    <script src="js/featherlight.gallery.min.js"></script>
+    <script src="js/jquery.enllax.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.stickyNavbar.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/images-loaded.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <script src="js/app.js"></script>
+    <script src="js/site.js"></script>
+    <script src="js/blog-processor.js"></script>
+    
+    <script>
+        // Load header and footer
+        document.addEventListener('DOMContentLoaded', function() {
+            fetch('header.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('header-container').innerHTML = data;
+                    // Reinitialize necessary scripts for header
+                    if (typeof initializeHeader === 'function') {
+                        initializeHeader();
+                    }
+                });
+                
+            fetch('footer.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('footer-container').innerHTML = data;
+                });
+        });
+    </script>
+</body>
+</html>
